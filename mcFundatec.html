@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mc Fundatec</title>
+  </head>
+  <h1><center>Mc Fundatec</center></h1>
+  <body>
+    <form>
+    <h3>Escolha o tipo de pão</h3>
+    <h4>
+      <input type="radio" id="comgergelim" name= "tipopao" /> 
+      <label for="comgergelim">Pão com Gergelim</label> 
+    </h4>
+    <h4>
+      <input type="radio" id="semgergelim" name=tipopao />
+      <label for="semgergelim">Pão sem Gergelim</label> 
+    </h4>
+    <hr />
+    <h3>Escolha o tipo de Hamburguer</h3>
+    <h4>
+      <input
+        type="radio"
+        name="tipohamburguer"
+        value="hamburguerdecarne"
+      />Hamburguer de carne
+    </h4>
+    <h4>
+      <input
+        type="radio"
+        name="tipohamburguer"
+        value="hamburguerdefrangoempanado"
+      />Hamburguer de Frango Empanado
+    </h4>
+    <h4>
+      <input
+        type="radio"
+        name="tipohamburguer"
+        value="hamburguerdecordeiro"
+      />Hamburguer de dordeiro
+    </h4>
+    <hr />
+    <h4>Escolha o tipo de Queijo</h4>
+    <select name="tipoqueijo" id="tipoqueijo">
+      <option value="">Escolha o queijo</option>
+      <option value="Parmesão">Parmesão</option>
+      <option value="Cotage">Cotage</option>
+      <option value="Minas">Minas</option>
+      <option value="Ricota">Ricota</option>
+    </select>
+    <hr />
+    <h4>Ingredientes Opcionais</h4>
+        <input type="checkbox" name=alface value="alface">Alface
+        <input type="checkbox" name="tomate" value="tomate">Tomate
+        <input type="checkbox" name="maionese" value="maionese">Maionese
+        <input type="checkbox" name="picles" value="picles">picles
+        <input type="checkbox" name="molhobarbecue" value="molhobarbecue">Molho Barbecue
+        <br>
+        <br>
+        <input type="checkbox" name="bacon" value="bacon">Bacon
+        <input type="checkbox" name="catchup" value="catchup">Catchup
+        <input type="checkbox" name="mostarda" value="mostarda">Mostarda
+        <input type="checkbox" name="porcaofritas" value="porcaofritas">Porção de fritas
+        <br>
+        <br>
+        <input type="reset" name="reset" value="Limpar seleção">
+    <hr>
+    <h3>Informações do cliente</h3>
+    <h4>Nome do cliente</h4>
+    <input type="text" name="nomecliente">
+    <br>
+    <br>
+    <button>Enviar Pedido</button>
+  </form>
+    </body>
+  </body>
+</html>
